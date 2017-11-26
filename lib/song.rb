@@ -50,6 +50,7 @@ class Song
     self.create
     song.name = new[1]
     song.artist_name = new[0]
+    song
   end
 
 end
