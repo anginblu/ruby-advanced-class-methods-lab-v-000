@@ -39,7 +39,7 @@ class Song
       end
     end
     new.each do |value|
-      value
+      puts value
     end
   end
 
