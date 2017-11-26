@@ -35,11 +35,11 @@ class Song
     new = []
     self.all.each do |value|
       if value.name == name
-        value
+        new << value
       end
     end
-    new.each do |value|
-      print value
+    new.each do |i|
+      i 
     end
   end
 
