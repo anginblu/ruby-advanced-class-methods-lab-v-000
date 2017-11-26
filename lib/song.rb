@@ -38,7 +38,8 @@ class Song
         new << value
       end
     end
-    new.all do {|value| value}
+    new.each do {|value|}
+      value
     end
   end
 
