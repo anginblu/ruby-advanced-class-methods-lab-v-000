@@ -50,6 +50,7 @@ class Song
     name = new[1]
     artist_name = new[0]
     self.create_by_name(name)
+    song.artist_name = artist_name
 
 
 
