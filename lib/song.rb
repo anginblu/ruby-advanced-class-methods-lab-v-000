@@ -49,6 +49,9 @@ class Song
     new = mp3[0].split(" - ")
     name = new[1]
     artist_name = new[0]
+    self.create_by_name(name)
+
+
 
   end
 
