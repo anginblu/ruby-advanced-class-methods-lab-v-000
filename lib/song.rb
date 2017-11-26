@@ -38,7 +38,7 @@ class Song
         new << value
       end
     end
-    new.to_a
+    new.value
   end
 
 end
