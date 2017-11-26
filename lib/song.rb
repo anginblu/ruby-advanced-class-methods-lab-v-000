@@ -38,7 +38,7 @@ class Song
         new << value
       end
     end
-    song
+    new
   end
 
 end
