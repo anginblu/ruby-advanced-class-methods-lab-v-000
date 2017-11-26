@@ -38,7 +38,7 @@ class Song
         new << value
       end
     end
-    new
+    new.flatten
   end
 
 end
