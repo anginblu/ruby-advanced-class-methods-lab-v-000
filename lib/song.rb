@@ -52,9 +52,6 @@ class Song
     self.create_by_name(name)
     song.artist_name = artist_name
     song
-
-
-
   end
 
 end
