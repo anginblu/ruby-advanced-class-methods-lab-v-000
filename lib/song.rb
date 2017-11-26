@@ -42,7 +42,9 @@ class Song
 
   def self.alphabetical
     new = []
-    self.all.sort! 
+    new[1] = self.all[1]
+    self.all.each do |i|
+      if i.name =
   end
 
 end
