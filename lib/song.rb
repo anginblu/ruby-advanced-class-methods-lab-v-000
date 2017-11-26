@@ -38,7 +38,8 @@ class Song
         new << value
       end
     end
-    new.all do |value|
+    new.all do {|value| value}
+    end
   end
 
 end
