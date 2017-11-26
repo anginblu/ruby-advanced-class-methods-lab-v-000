@@ -41,10 +41,7 @@ class Song
   end
 
   def self.alphabetical
-    new = []
-    new[1] = self.all[1]
-    self.all.each do |i|
-      if i.name =
+    self.all.sort_by {|i| i.name}
   end
 
 end
