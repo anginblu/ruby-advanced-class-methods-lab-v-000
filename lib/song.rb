@@ -38,7 +38,7 @@ class Song
         new << value
       end
     end
-    new.value
+    new.all do |value|
   end
 
 end
