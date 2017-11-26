@@ -33,10 +33,7 @@ class Song
 
   def self.find_by_name(name)
     new = []
-    self.all.each do |value|
-      if value.name == name
-        new << value
-      end
+    self.all.bsearch {|value| value.name == name}
     end
   end
 
