@@ -41,7 +41,8 @@ class Song
   end
 
   def self.alphabetical
-    
+    new = []
+    self.each 
   end
 
 end
