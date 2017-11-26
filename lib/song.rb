@@ -32,10 +32,10 @@ class Song
   end
 
   def self.find_by_name(name)
-    @name = name
+    new = []
     self.all.each do |value|
-      if value.name == @name
-        song = value
+      if value.name == name
+        new << value
       end
     end
     song
